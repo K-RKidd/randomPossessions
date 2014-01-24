@@ -10,6 +10,7 @@
 		6347B4D21891F889007480DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6347B4D11891F889007480DE /* Foundation.framework */; };
 		6347B4D51891F889007480DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6347B4D41891F889007480DE /* main.m */; };
 		6347B4D91891F889007480DE /* randomPossessions.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6347B4D81891F889007480DE /* randomPossessions.1 */; };
+		6347B4E11891FBCC007480DE /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6347B4E01891FBCC007480DE /* BNRItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		6347B4D41891F889007480DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6347B4D71891F889007480DE /* randomPossessions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "randomPossessions-Prefix.pch"; sourceTree = "<group>"; };
 		6347B4D81891F889007480DE /* randomPossessions.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = randomPossessions.1; sourceTree = "<group>"; };
+		6347B4DF1891FBCC007480DE /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		6347B4E01891FBCC007480DE /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				6347B4D41891F889007480DE /* main.m */,
+				6347B4DF1891FBCC007480DE /* BNRItem.h */,
+				6347B4E01891FBCC007480DE /* BNRItem.m */,
 				6347B4D81891F889007480DE /* randomPossessions.1 */,
 				6347B4D61891F889007480DE /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6347B4D51891F889007480DE /* main.m in Sources */,
+				6347B4E11891FBCC007480DE /* BNRItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
