@@ -13,13 +13,21 @@
     NSString *serialNumber;
     int valueInDollars;
     NSDate *dateCreated;
+    
 }
+
++(id) randomItem;
+
+-(id) initWithItemName: (NSString *) name
+        valueInDollars: (int) value
+          serialNumber: (NSString *) sNumber;
+
 -(NSString *) getItemName;
--(void) itemName:(NSString *) str;
+-(void) setItemName:(NSString *) str;
 -(NSString *) getSerialNumber;
--(void) serialNumber: (NSString *) str;
+-(void) setSerialNumber: (NSString *) str;
 -(int) getValueInDollars;
--(void) valueInDollars: (int) v;
+-(void) setValueInDollars: (int) i;
 -(NSDate *) getDateCreated;
--(void) dateCreated: (NSDate *) d;
+-(void) setDateCreated: (NSDate *) d;
 @end

@@ -12,19 +12,17 @@
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        NSMutableArray *items = [[NSMutableArray alloc]init];
-        [items addObject:@"one"];
-        [items addObject:@ "two"];
-        [items addObject:@ "three"];
-        [items insertObject:@ "zero" atIndex:0];
-    // print out what the array is doing                              }
-        for (int i=0; i< [items count]; i++){
-        NSLog (@ "%@", [items objectAtIndex: i]);
-    
-    }
-        BNRItem *p = [[BNRItem alloc] init];
-        NSLog (@ "%@ %@ %@ %d", [p itemName], [p dateCreated], [p serialNumber], [p valueInDollars]);
-                                               
+        NSMutableArray *items = [[NSMutableArray alloc] init];
+       
+        for (int i =0; i<10; i++) {
+            BNRItem *p = [BNRItem randomItem];
+            [items addObject:p];
+        }
+        
+        for (int i =0; i< [items count]; i++){
+            NSLog(@ "%@", [items objectAtIndex:i]);
+        }
+        
         items = nil;
 }
         return 0;
